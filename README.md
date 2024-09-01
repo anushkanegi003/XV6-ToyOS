@@ -1,4 +1,5 @@
-#xv6 Toy OS
+#xv6Toy OS
+
 This project is an enhanced version of the xv6 Toy OS, featuring multiple improvements and custom implementations designed to optimize synchronization, scheduling, and memory management.
 
 Features
@@ -18,18 +19,18 @@ Dynamic Paging with LRU: Integrated dynamic paging with a Least Recently Used (L
 Installation
 Clone the repository:
 
-sh
+
 Copy code
 git clone [your-git-link]
-cd xv6-OS-main
+ xv6-OS-main
 Build the OS:
 
-sh
+
 Copy code
 make
 Run the OS in a QEMU emulator:
 
-sh
+
 Copy code
 make qemu
 Usage
